@@ -1,0 +1,58 @@
+DICCIONARIO DE DATOS / OBRAS - INFRAESTRUCTURA DEL CUIDADO,,
+conjunto de datos:,Contiene información de las Obras de la República Argentina,
+fuente:,Ministerio de Obras Públicas,
+año/temporalidad:,Diaria/Semanal/Mensual,
+URI,https://mapainversiones.obraspublicas.gob.ar/opendata/dataset_mop.csv,
+,,
+columna,tipo de dato,descripcion
+idproyecto,entero,Identificador único de la obra
+numeroobra,entero,Número de la obra
+codigobapin,texto,Código BAPIN (https://www.argentina.gob.ar/dnip/bapin) del proyecto al cual hace referencia la obra
+fechainicioanio,entero,Año de inicio de la obra
+fechafinanio,entero,Año de fin de la obra
+nombreobra,texto,Nombre de la obra
+descripcionfisica,texto,Descripción física de la obra
+montototal,decimal,Monto total de la obra
+sectornombre,texto,Sector encargado de la obra
+avancefinanciero,decimal,Porcentaje de avance financiero de la obra
+avancefisico,decimal,Porcentaje de avance físico de la obra
+entidadejecutoranombre,texto,Nombre de la entidad ejecutora
+duracionobrasdias,entero,Duración en días de la obra
+objetivogeneral,texto,Objetivo general de la obra
+tipoproyecto,texto,Tipo de proyecto de la obra
+nombredepto,texto,Nombre del Departamento (primeros 5 digitos codigo BAHRA) http://www.bahra.gob.ar/descargas/codificacion.pdf
+nombreprovincia,texto,Nombre de la Provincia (primeros 2 digitos codigo BAHRA) http://www.bahra.gob.ar/descargas/codificacion.pdf
+codigo_bahra,texto,Codigo de la Base de Asentamientos Humanos de la República Argentina (BAHRA) http://www.bahra.gob.ar
+etapaobra,texto,Etapa en que se encuentra la obra
+tipomoneda,texto,Tipo de moneda en la que se representa el monto total de la obra
+url_perfil_obra,texto,Direccion https asociada al perfil de la obra en la plataforma
+programa_infraestructura,texto,Etiqueta Programa Infraestructura del Cuidado
+organismo_financiador_1,texto,Organismo financiador del proyecto 1
+organismo_financiador_2,texto,Organismo financiador del proyecto 2
+organismo_financiador_prestamo,texto,Numero de operación asociado al organismo financiador
+,,
+,,
+,,
+DICCIONARIO DE DATOS / PROYECTOS DE INVERSIÓN,,
+conjunto de datos:,Contiene información de los proyectos de Inversión de La República Argentina,
+fuente:,Ministerio de Obras Públicas,
+año/temporalidad:,Diaria/Semanal/Mensual,
+URI,https://mapainversiones.obraspublicas.gob.ar/opendata/dataset_proyectosmop.csv,
+,,
+columna,tipo de dato,descripcion
+idproyecto,entero,Código identificador del proyecto en MapaInversiones
+codigobapin,entero,Código identificador del proyecto dentro del banco de proyectos
+nombreproyecto,Texto,Nombre de proyecto
+sector,Texto,Nombre del sector al que pertenece el proyecto de inversión. Ej. Arquitectura
+subsector,Texto,Nombre del Subsector al que pertenece el proyecto de inversión.
+tipo,Texto,Descripción del tipo de proyecto
+costoestimado,decimal,Costo estimado del proyecto en pesos argentinos
+fechaestimacion,Fecha,Fecha de estimación del costo del proyecto
+responsable,Texto,Entidad responsable del proyecto
+plan,Texto,Nombre del plan al cual el proyecto hace su aporte. Ej: Plan Argentina Hace
+objetivo,Texto,Objetivo del proyecto
+descripcion,Texto,Descripción del proyecto
+nombreprovincia,Texto,Nombre de la provincia en donde se encuentra localizado el proyecto
+nombredepartamento,Texto,Nombre del departamento en donde se encuentra localizado el proyecto
+fechacarguearchivo,Fecha,Fecha de ultimo cargue de información del proyecto en MapaInversiones
+fuentedatos,Texto,Fuente de información de proyectos para MapaInversiones
